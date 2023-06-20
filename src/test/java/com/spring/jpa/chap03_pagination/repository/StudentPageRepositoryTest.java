@@ -82,7 +82,7 @@ class StudentPageRepositoryTest {
         studentList.forEach(System.out::println);
         System.out.println("\n\n\n");
     }
-
+    
     @Test
     @DisplayName("이름검색 + 페이징")
     void testSearchAndPagination() {
@@ -105,8 +105,18 @@ class StudentPageRepositoryTest {
         students.getContent().forEach(System.out::println);
         System.out.println("\n\n\n");
     }
-
+    
 }
+
+
+
+
+
+
+
+
+
+
 
 
 
